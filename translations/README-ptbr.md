@@ -208,22 +208,22 @@ Eu estou usando a sintaxe de markdown especial do Github, incluindo listas de ta
 
 
     Bifurque (fork) um branch e siga os comandos abaixo
+[
+git checkout -b progress`
 
-`git checkout -b progress`
+git remote add jwasham https://github.com/jwasham/coding-interview-university
 
-`git remote add jwasham https://github.com/jwasham/coding-interview-university`
-
-`git fetch --all`
+git fetch --all
 
     Marque todas as caixas com X depois que você completar suas alterações
 
-`git add . `
+git add . 
 
-`git commit -m "Marked x" `
+git commit -m "Marked x" 
 
-`git rebase jwasham/main `
+git rebase jwasham/main 
 
-`git push --force `
+git push --force 
 
 [Mais sobre a sintaxe de markdown especial do Github](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
